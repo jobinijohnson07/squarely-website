@@ -1,0 +1,223 @@
+.footer-section{
+    background: #000000;
+}
+.footerwhole-content{
+    padding-top: 80px;
+}
+.firstfooter-content{
+    text-align: unset;
+    padding-left: 150px;
+}
+.footer-imgcontent{
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+}
+.idea-content{
+    font-family: Sora-Bold;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 35px;
+    padding-bottom: 20px;
+    color: #FFFFFF;
+}
+.hellofooter-content{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    text-decoration-line: underline;
+    padding-bottom: 12px;
+    color: #FFFFFF;
+}
+.hellosquarely-content{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    padding-bottom: 50px;
+    color: #FFFFFF;
+}
+.us-content{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    padding-bottom: 7px;
+    color: #FFFFFF;
+}
+.limestone-content{
+    font-family: Sora-ExtraLight;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.65);
+}
+.row-value{
+    display: flex;
+    padding-bottom: 50px;
+}
+.row{
+    display: flex;
+}
+.uswhole-content{
+    padding-right: 90px;
+}
+.firstsfooter-content{
+    padding-left: 136px;
+}
+.social-imgcontent{
+    padding-left: 0px;
+    padding-right: 35px;
+    padding-bottom: 40px;
+    margin-bottom: 0px;
+}
+.policies-content{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 8px;
+    color: rgba(255, 255, 255, 0.65);
+}
+.copyrights-content{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: unset;
+    padding-bottom: unset;
+    padding-bottom: 25px;
+    color: rgba(255, 255, 255, 0.65);
+}
+.menus-content{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    padding-bottom: 15px;
+    color: #FFFFFF;
+}
+@media (min-width: 320px) and (max-width: 771px){
+    .row{
+        display: flow-root;
+    }
+    .firstfooter-content {
+        text-align: center;
+        padding-left: unset;
+    }
+    .firstsfooter-content{
+        padding-left: unset;
+    }
+    .row-value {
+        display: flow-root;
+        padding-bottom: 50px;
+    }
+    .footerwhole-content {
+        padding-top: 50px;
+    }
+    .footer-imgcontent {
+        padding-bottom: 23px;
+        margin-bottom: 0px;
+    }    
+    .idea-content {
+        font-family: Sora-Bold;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 90%;
+        padding-bottom: 20px;
+        color: #FFFFFF;
+    }
+    .hellofooter-content {
+        font-family: Sora;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 19px;
+        text-decoration-line: underline;
+        padding-bottom: 22px;
+        color: #FFFFFF;
+    }
+    .hellosquarely-content {
+        font-family: Sora;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        padding-bottom: 38px;
+        color: #FFFFFF;
+    }
+    .menus-content {
+        font-family: Sora;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        padding-bottom: 15px;
+        color: #FFFFFF;
+    }
+    .uswhole-content {
+        padding-right: unset;
+    }
+    .us-content {
+        font-family: Sora;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        padding-top: 38px;
+        padding-bottom: 8px;
+        color: #FFFFFF;
+    }
+    .limestone-content {
+        font-family: Sora-ExtraLight;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 17px;
+        text-align: center;
+        padding-left: 23px;
+        padding-right: 23px;
+        color: rgba(255, 255, 255, 0.65);
+    }
+    .social-imgcontent {
+        padding-left: 25px;
+        padding-right: 0px;
+        padding-bottom: 40px;
+        margin-bottom: 0px;
+    }
+    .policies-content {
+        font-family: Sora;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 8px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.65);
+    }
+    .copyrights-content {
+        font-family: Sora;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 25px;
+        color: rgba(255, 255, 255, 0.65);
+    }
+}

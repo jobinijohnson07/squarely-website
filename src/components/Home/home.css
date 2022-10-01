@@ -1,0 +1,130 @@
+.home-wrapper{
+    width: 100vw;
+    /* height: 100vh; */
+    margin-top: 20px;
+    
+    /* justify-content: center; */
+    /* display: flex; */
+}
+.impactful-wrapper{
+    /* margin: 0 auto; */
+    /* display: flex; */
+    /* margin-left: 180px; */
+    margin: auto;
+    max-width: 1000px;
+}
+.display-content{
+    display: flex;
+    padding: unset;
+}
+.impactful-content{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 92px;
+    line-height: 90%;
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+.knowus-imgcontent{
+    width: 156px;
+    /* margin-right: 180px; */
+    margin-left: auto;
+}
+.squarely-content{
+    font-family: Sora-Light;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35px;
+    padding-left: 11px;
+    padding-top: 20px;
+    padding-bottom: 36px;
+    color: #353535;
+}
+.project-button-wrapper{
+    margin:0px 15px;
+    padding-bottom: 22px;
+}
+br{
+    display: block;
+}
+.project-button {
+    padding: 5px 20px;
+    font-family: Sora;
+    border: 1px solid#000000;
+    background-color: #ffffff;
+    font-size: 18px;
+    position: relative;
+}
+.project-button::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    position: absolute;
+    left: -5px;
+    bottom: 0px;
+}
+.scroll-imgcontent{
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 80px;
+}
+@media (min-width: 320px) and (max-width: 771px){
+    .display-content {
+        padding: 11px;
+        display: flex;
+    }
+    .knowus-imgcontent {
+        width: 70px;
+        margin-left: auto;
+    }
+    .impactful-content {
+        font-family: Sora;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 90%;
+        letter-spacing: -0.01em;
+        color: #000000;
+    }
+    .knowus-imgcontent {
+        width: 70px;
+        margin-left: auto;
+    }
+    .squarely-content {
+        font-family: Sora-Light;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        padding-left: 11px;
+        padding-top: 20px;
+        padding-bottom: 36px;
+        color: #353535;
+    }
+    br{
+        display: none;
+    }
+    .project-button-wrapper {
+        margin: 0 auto;
+        justify-content: center;
+        display: flex;
+        padding-bottom: 50px;
+    }
+    .project-button {
+        padding: 5px 30px;
+        font-family: Sora;
+        border: 1px solid#000000;
+        background-color: #ffffff;
+        font-size: 18px;
+        position: relative;
+    }
+    .scroll-imgcontent{
+        display: none;
+    }
+}

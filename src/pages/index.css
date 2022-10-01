@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Sora';
+    src: url('../images/Fonts/Sora-Regular.ttf');
+  }
+
+  @font-face {
+    font-family: 'Sora-ExtraBold';
+    src: url('../images/Fonts/Sora-ExtraBold.ttf');
+  }
+
+  @font-face {
+    font-family: 'Sora-Bold';
+    src: url('../images/Fonts/Sora-Bold.ttf');
+  }
+
+  @font-face {
+    font-family: 'Sora-Light';
+    src: url('../images/Fonts/Sora-Light.ttf');
+  }
+
+  @font-face {
+    font-family: 'Sora-ExtraLight';
+    src: url('../images/Fonts/Sora-ExtraLight.ttf');
+  }
+
+  body{
+    overflow: hidden;
+  }

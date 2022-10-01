@@ -1,0 +1,116 @@
+.clients-section{
+    background: rgba(169, 177, 190, 0.1);
+}
+.clients-content{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    display: flex;
+    color: #000000;   
+}
+.union-imgcontent{
+    padding-right: 8px;
+    margin-bottom: 0px;
+}
+.clientservice-content{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 90%;
+    letter-spacing: -0.01em;
+    padding-left: 100px;
+    padding-bottom: 28px;
+    margin-bottom: 0px;
+    color: #000000;
+}
+.bold-content{
+    font-family: Sora-Bold;
+}
+.reality-content{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    padding-left: 100px;
+    margin-bottom: 0px;
+    color: #353535;
+}
+.secondrow-desktop{
+    display: block;
+}
+.secondrow-mobile{
+    padding-right: unset;
+    text-align: unset;
+    display: none;
+}
+.clienticon-imgcontent{
+    width: 180px;
+}
+.clientsicon-imgcontent{
+    width: 180px;
+}
+.clientrow-content{
+    padding-bottom: 60px;
+}
+@media (min-width: 320px) and (max-width: 771px){
+    .clients-content {
+        font-family: Sora;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        padding-left: 20px;
+        padding-top: 50px;
+        padding-bottom: 15px;
+        display: flex;
+        color: #000000;
+    }
+    .clientservice-content {
+        font-family: Sora;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 90%;
+        letter-spacing: -0.01em;
+        padding-left: 20px;
+        padding-bottom: 12px;
+        margin-bottom: 0px;
+        color: #000000;
+    }
+    .reality-content {
+        font-family: Sora;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        padding-left: 20px;
+        padding-bottom: 40px;
+        margin-bottom: 0px;
+        color: #353535;
+    }
+    .secondrow-desktop{
+        display: none;
+    }
+    .secondrow-mobile{
+        padding-right: 70px;
+        text-align: right;
+        display: block;
+    }
+    .clientsicon-imgcontent {
+        width: 110px;
+    }
+    .clientrow-content {
+        padding-bottom: 30px;
+    }
+}
