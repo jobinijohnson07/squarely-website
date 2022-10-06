@@ -15,7 +15,7 @@
     padding-left: 80px;
     padding-top: 60px;
 }
-.second-row{
+.second-row{ 
     padding-left: 100px;
     padding-top: 60px;
 }
@@ -28,7 +28,7 @@
     font-family: Sora;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1em;
     line-height: 19px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -39,7 +39,7 @@
     font-family: Sora;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.2em;
     line-height: 90%;
     padding-bottom: 30px;
     color: #3A3A3A;

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './caseDetail.css'
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import WeaponHolder from '../../../images/weapondetail.svg';
 import SloshDetail from '../../../images/sloshdetail.svg';
 import WakefitDetail from '../../../images/wakefitdetail.svg';

@@ -1,29 +1,29 @@
 import React, { useState } from 'react';
 import './header.css'
 import Button from 'react-bootstrap/Button';
-// import Modal from 'react-bootstrap/Modal';
-import MblLogo from '../../images/mbllogo.svg';
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import MblLogo from '../../images/squarelylogo.svg';
 import Hamburger from '../../images/hamburger.svg';
 import DismissButton from '../../images/dismissbutton.svg';
 import {Modal} from "react-bootstrap";
 
-function Header() {  
+function Header() {   
    const [show, setShow] = useState(false);
 
    const handleClose = () => setShow(false);
    const handleShow = () => setShow(true);
-   
+    
     return(  
-      <div className='header-section'>
+      <div className='header-section'> 
         <div className="row-content">
           <div className='logo-wrapper'>
-              <img className='logo' src={MblLogo} alt='SquarelyLogo'/>
-              <img className='mbllogo' src={MblLogo} alt='SquarelyLogo'/>
+              <LazyLoadImage className='logo' src={MblLogo} alt='SquarelyLogo'/>
+              <LazyLoadImage className='mbllogo' src={MblLogo} alt='SquarelyLogo'/>
           </div>
         </div>
         <div className=" nav-item-wrapper">
         <Button variant="primary" onClick={handleShow}>
-            <span className='item'><img src={Hamburger} alt="hamburger" /></span> 
+            <span className='item'><LazyLoadImage src={Hamburger} alt="hamburger" /></span> 
         </Button>
         </div>
         <Modal
@@ -55,7 +55,7 @@ function Header() {
             </div>
             <div className="col-md-4 third-row">
             
-                <img src={DismissButton} alt="dismissButton" />
+                <img src={DismissButton} alt="dismissButton" /> 
 
             </div>
           </div>  

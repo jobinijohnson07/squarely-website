@@ -1,0 +1,138 @@
+// Border Hover Animation Button
+$light-gray: #DAE9F4; // rgb(218,233,244)
+$dark-gray: #9BAEC8; // rgb(155,174,200)
+$blue: #0395E5; // rgb(3,149,229)
+
+$btn-font : 'Open Sans', sans-serif;
+$btn-font-size : 12px;
+$btn-letter-spacing : 3px;
+$btn-border-width  : 220px;
+$btn-border-height : 50px;
+$btn-border-stroke: 1px;
+$btn-border-transition: 0.15s;
+$btn-border-pipeline_width: $btn-border-width+$btn-border-stroke;
+$btn-border-pipeline_height: $btn-border-height+$btn-border-stroke;
+$btn-border-pipes: 4;
+
+@function border-pipeline ($btn-border-transition, $pipe) {
+  @return $btn-border-transition*$pipe;
+}
+
+@mixin border-animation($dimension, $easing ,$pipe )
+{
+  transition: $btn-border-transition  $dimension $easing border-pipeline($btn-border-transition,$pipe);
+  -web-kit-transition: $btn-border-transition  $dimension $easing border-pipeline($btn-border-transition,$pipe);
+}
+
+.learn-button{
+    border: 1px solid red !important;
+}
+/* button */
+.dot{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 100px;
+    position: absolute;
+    left: -5px;
+    bottom: -0.5px;
+    z-index: 1;
+}
+.btn-border-light {
+    position: relative;
+    width: $btn-border-width;
+    height: $btn-border-height;
+    background: none;
+    border: 1px solid #353535;
+    text-align: center;
+    cursor: pointer;
+    transition: ($btn-border-transition*$btn-border-pipes)+$btn-border-transition ease;
+
+    .btn-border-light-inner {
+      height: $btn-border-height;
+
+      a { 
+        color: black;
+        font-family: Sora;
+        letter-spacing: -0.01em;
+        font-size: 19px;
+        line-height: 29px;
+        text-decoration: none !important;
+      }
+    }
+
+    &:before {
+      position: absolute;
+      width: 0;
+      height: $btn-border-stroke;
+      content: '';
+      background: #FFDC00;
+      top: -$btn-border-stroke;
+      left: -$btn-border-stroke*2;
+      @include border-animation( width, ease, 3);
+    }
+
+    &:after {
+      position: absolute;
+      width: $btn-border-stroke;
+      height: 0;
+      content: '';
+      background: #FFDC00;
+      top: -$btn-border-stroke;
+      right: -$btn-border-stroke*2;
+      @include border-animation( height, ease, 2);
+    }
+
+    &-inner:before {
+      position: absolute;
+      width: $btn-border-stroke;
+      height: 0;
+      content: '';
+      background: #FFDC00;
+      bottom:-$btn-border-stroke*2;
+      left: -$btn-border-stroke*2;
+      @include border-animation( height, ease, 0);
+    }
+
+    &-inner:after{
+      position: absolute;
+      width: 0;
+      height: $btn-border-stroke;
+      content: '';
+      background: #FFDC00;
+      bottom: -$btn-border-stroke*2;
+      right: -$btn-border-stroke*2;
+      @include border-animation( width, ease, 1);
+    }
+
+    &:hover{
+      border-color: transparent;
+      background: none;
+
+      &:before {
+        width: $btn-border-pipeline_width;
+        @include border-animation( width, ease, 0);
+      }
+
+      &:after {
+        height:$btn-border-pipeline_height;
+        @include border-animation( height, ease, 1);
+      }
+
+      .btn-border-light-inner {
+        a {
+          color: black;
+        }
+      }
+
+      .btn-border-light-inner:after {
+        width: $btn-border-pipeline_width;
+        @include border-animation( width, ease, 2);
+      }
+
+      .btn-border-light-inner:before {
+        height:$btn-border-pipeline_height;
+        @include border-animation( height, ease, 3);
+      }
+    }
+  }

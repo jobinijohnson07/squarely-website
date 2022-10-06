@@ -1,0 +1,188 @@
+.things-section{
+    background: #3FC5B3;
+}
+.things-section h6{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8em;
+    line-height: 19px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    padding-left: unset;
+    padding-top: 100px;
+    padding-bottom: 21px;
+    margin-bottom: unset;
+    display: flex;
+    color: #000000;   
+}
+.thingssec-content{
+    max-width: 1100px;
+    margin: auto;
+}
+.union-imgcontent{
+    padding-right: 8px;
+    margin-bottom: 0px;
+}
+.things-section h4{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5em;
+    line-height: 90%;
+    letter-spacing: -0.01em;   
+    padding-left: unset;
+    padding-bottom: 80px;
+    color: #000000;
+}
+.bold-content{
+    font-family: Sora-Bold;
+}
+.icons-section{
+    display: flex;
+}
+.whole-content{
+    margin-left: auto;
+    padding-bottom: 50px;
+}
+.lastwhole-content{
+    margin-left: auto;
+    padding-bottom: 100px;
+}
+.strategy-imgcontent{
+    width: 48px;
+    margin-bottom: 0px;
+}
+.things-section h5{
+    font-family: Sora-Bold;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 35px;
+    padding-top: 32px;
+    padding-bottom: 8px;
+    color: #000000;   
+}
+.firstrow-content{
+    padding-left: unset;
+    padding-right: 80px;
+}
+.lastrow-content{
+    padding-left: unset;
+    padding-right: 424px; 
+}
+.things-section p{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1em !important;
+    line-height: 26px;
+    padding-bottom: unset;
+    color: #000000;
+}
+.vectorarrow-imgcontent{
+    display: block;
+}
+.row{
+    display: flex;
+}
+.things-button-wrapper{
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    padding-top: 8px;
+    padding-bottom: 100px;
+} 
+.things-button {
+    padding: 9px 35px;
+    font-family: Sora;
+    border: 2px solid #353535;
+    background-color: #3FC5B3;
+    font-size: 1.2em;
+    position: relative;
+}
+// .things-button::before{
+//     content: ''; 
+//     width: 10px;
+//     height: 10px;
+//     background-color: #3FC5B3;
+//     border-radius: 50px;
+//     position: absolute;
+//     left: -5px;
+//     bottom: 0px;
+// }
+@media (min-width: 320px) and (max-width: 771px){
+    .things-section h6 {
+        font-family: Sora;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.8em;
+        line-height: 19px;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        padding-left: 20px;
+        padding-top: 50px;
+        padding-bottom: 16px;
+        display: flex;
+        color: #000000;
+    }
+    .things-section h4 {
+        font-family: Sora;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.8em;
+        line-height: 90%;
+        letter-spacing: -0.01em;
+        padding-left: 20px;
+        padding-bottom: 40px;
+        color: #000000;
+    }
+    .firstrow-content {
+        padding-left: 20px;
+        padding-right: unset;
+    }
+    .strategy-imgcontent {
+        width: 32px;
+        margin-bottom: 0px;
+    }
+    .things-section h5 {
+        font-family: Sora-Bold;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.6em;
+        line-height: 24px;
+        padding-top: 12px;
+        padding-bottom: 10px;
+        color: #000000;
+    }
+    .vectorarrow-imgcontent{
+        display: none;
+    }
+    .row{
+        display: flow-root;
+    }
+    .action-content {
+        font-family: Sora;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1em;
+        line-height: 21px;
+        padding-bottom: 32px;
+        color: #000000;
+    }
+    .whole-content {
+        margin-left: auto;
+        padding-bottom: unset;
+    }
+    .lastrow-content {
+        padding-left: 20px;
+        padding-right: unset;
+    }
+    .things-button-wrapper {
+        margin: 0 auto;
+        justify-content: center;
+        display: flex;
+        padding-top: 8px;
+        padding-bottom: 50px;
+    }
+}

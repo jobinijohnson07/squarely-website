@@ -1,10 +1,10 @@
 .casestudy-section{
     background: url('../../images/casebg.svg');
 }
-.casestudy-content{
+.casestudy-section h3{
     font-style: normal;
     font-weight: 400;
-    font-size: 100px;
+    font-size: 6.3em;
     line-height: 90%;
     text-align: center;
     letter-spacing: -0.01em;
@@ -12,7 +12,25 @@
     color: #FAFBFF;
 }
 .image-wrapper{
+    width: 480px;
     margin: 0 20px;
+    object-fit: cover;
+}
+.image-wrapper:hover{
+    width: 480px;
+    overflow: hidden;
+    height: fit-content;
+    object-fit: cover;
+    transform: scale(1.04);
+    /* -webkit-transition: 4s ease-in-out; */
+    transition: all .15s ease;
+    /* transition: transform 4s ease-out,opacity 4s ease-out,-webkit-transform 4s ease-out; */
+}
+.overflow-content{
+    width: 480px;
+    overflow: hidden;
+    /* -webkit-transition: 4s ease-in-out; */
+    /* transition: 4s ease-in-out; */
 }
 .image-wrapper:nth-child(odd){
     margin-top: 20px;
@@ -33,11 +51,11 @@
 .bold-content{
     font-family: Sora-Bold;
 }
-.title{
+.casestudy-section h6{
     font-family: Sora;
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.3em;
     line-height: 90%;
     letter-spacing: -0.01em;
     padding-bottom: 10px;
@@ -48,7 +66,7 @@
     font-family: Sora;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1em;
     line-height: 22px;
     color: rgba(255, 255, 255, 0.65);
 }
@@ -58,13 +76,16 @@
     padding-bottom: 120px;
 }
 .casestudy-button {
-    padding: 15px;
+    padding: 5px 24px;
     font-family: Sora;
     border: 1px solid#D9D9D9;
     background-color: #000000;
     font-size: 18px;
     position: relative;
     color: #FFFFFF; 
+}
+a{
+    text-decoration: none;
 }
 .casestudy-button::before{
     content: '';
@@ -77,10 +98,10 @@
     bottom: 0px;
 }
 @media (min-width: 320px) and (max-width: 771px){
-    .casestudy-content {
+    .casestudy-section h3 {
         font-style: normal;
         font-weight: 400;
-        font-size: 30px;
+        font-size: 2em;
         line-height: 90%;
         text-align: center;
         letter-spacing: -0.01em;
@@ -91,23 +112,30 @@
         color: #FAFBFF;
     }
     .image-wrapper:nth-child(odd) {
-        margin: 55px 20px 40px 20px;
+        margin: 55px 14px 40px 14px;
     } 
     .image-wrapper:nth-child(even) {
-        margin: 5px 12px 0px 20px;
+        margin: 5px 12px 0px 13px;
+    }
+    .overflow-content {
+        width: unset;
     }
     .frame-content {
         margin-top: unset;
     }
     .title {
-        font-size: 19px;
+        font-size: 1.3em;
     }
     .sub-title {
-        font-size: 18px;
+        font-size: 1em;
     }
     .casestudy-button-wrapper {
         margin: 0 auto;
         padding-top: 40px;
         padding-bottom: 50px;
     }    
+    .casestudy-button {
+        font-size: 1.2em;
+        padding: 10px;
+    }
 }

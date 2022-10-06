@@ -1,17 +1,20 @@
 .ourAgency-section{
+    max-width: 1100px;
+    margin: auto;
     background: #ffffff;
 }
-.agency-content{
+.ourAgency-section h6{
     font-family: Sora;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 0.8em;
     line-height: 19px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    padding-left: 100px;
+    padding-left: unset;
     padding-top: 100px; 
     padding-bottom: 20px;
+    margin-bottom: unset;
     display: flex;
     color: #000000;   
 }
@@ -19,15 +22,27 @@
     padding-right: 8px;
     margin-bottom: 0px;
 }
-.service-content{
-    font-family: Sora;
+.ourAgency-section h4{
+    font-family: Sora-Bold;
     font-style: normal;
     font-weight: 400;
-    font-size: 45px;
+    font-size: 2.6em;
     line-height: 90%;
     letter-spacing: -0.01em;
-    padding-left: 100px;
+    padding-left: unset;
+    padding-bottom: 20px;
+    margin: unset;
     color: #000000;
+}
+.ourAgency-section p{
+    font-family: Sora;
+    font-style: normal; 
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    margin-bottom: unset;
+    color: #353535;
 }
 .bold-content{
     font-family: Sora-Bold;
@@ -36,7 +51,7 @@
     font-family: Sora-Bold;
     font-style: normal;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 2.4em;
     line-height: 89%;
     letter-spacing: -0.01em;
     padding-bottom: 12px;
@@ -46,9 +61,18 @@
     font-family: Sora;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.3em;
     line-height: 90%;
     padding-bottom: 50px;
+    color: rgba(0, 0, 0, 0.5);
+} 
+.lastdetails-content{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3em;
+    line-height: 90%;
+    padding-bottom: 120px;
     color: rgba(0, 0, 0, 0.5);
 }
 .about-button-wrapper{
@@ -60,14 +84,14 @@
 } 
 .about-button {
     padding: 10px 25px;
-    font-family: Sora;
-    border: 2px solid #353535;
+    font-family: Sora; 
+    border: 1px solid #353535;
     background-color: #ffffff;
-    font-size: 18px;
+    font-size: 1.2em;
     position: relative;
 }
-.about-button::before{
-    content: '';
+/* .about-button::before{
+    content: ''; 
     width: 10px;
     height: 10px;
     background-color: #ffffff;
@@ -75,13 +99,13 @@
     position: absolute;
     left: -5px;
     bottom: 0px;
-}
+} */
 @media (min-width: 320px) and (max-width: 771px){
-    .agency-content {
+    .ourAgency-section h6 {
         font-family: Sora;
         font-style: normal;
         font-weight: 400;
-        font-size: 14px;
+        font-size: 0.8em;
         line-height: 19px;
         letter-spacing: 0.15em;
         text-transform: uppercase;
@@ -91,11 +115,11 @@
         display: flex;
         color: #000000;
     }
-    .service-content {
-        font-family: Sora;
+    .ourAgency-section h4 {
+        font-family: Sora-Bold;
         font-style: normal;
         font-weight: 400;
-        font-size: 30px;
+        font-size: 1.9em;
         line-height: 90%;
         letter-spacing: -0.01em;
         padding-left: 20px;
@@ -107,7 +131,7 @@
         font-family: Sora-Bold;
         font-style: normal;
         font-weight: 400;
-        font-size: 35px;
+        font-size: 2.2em;
         line-height: 89%;
         letter-spacing: -0.01em;
         padding-left: 20px;
@@ -118,7 +142,7 @@
         font-family: Sora;
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 1em;
         line-height: 21px;
         padding-left: 20px;
         padding-bottom: 35px;

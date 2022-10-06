@@ -1,0 +1,31 @@
+.weStand-section{
+    background: url('../../images/casebg.svg');
+}
+.westandsec-content{
+    max-width: 1100px;
+    margin: auto;
+}
+.weStand-section p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    padding-top: 120px;
+    padding-bottom: 17px;
+    margin: unset;
+    max-width: unset;
+    color: #FFFFFF;
+}
+.weStand-section h3{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 90%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    padding-bottom: 120px;
+    color: #FFFFFF;
+}

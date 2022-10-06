@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './footer.css'
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import FooterLogo from '../../images/footerlogo.svg';
 import Linkedin from '../../images/linkedin.svg';
 import Facebook from '../../images/facebook.svg';
@@ -15,7 +16,7 @@ class Footer extends Component{
           <div className="footerwhole-content">
            <div className="row">
             <div className="col-md-8 firstfooter-content">
-              <img className="footer-imgcontent" src={FooterLogo} alt="FooterLogo" />
+              {/* <LazyLoadImage className="footer-imgcontent" src={FooterLogo} alt="FooterLogo" /> */}
               <div className="idea-content">Got an idea?</div>
               <div className="hellofooter-content">Say Hello!</div>
               <div className="hellosquarely-content">(941) 952 - 7227 | hello@squarely.co</div>
@@ -41,12 +42,12 @@ class Footer extends Component{
                 </div>
               </div>
               <div>
-                <img className="social-imgcontent" src={Linkedin} alt="linkedin" />
-                <img className="social-imgcontent" src={Facebook} alt="facebook" />
-                <img className="social-imgcontent" src={Instagram} alt="instagram" />
-                <img className="social-imgcontent" src={Behance} alt="behance" />
-                <img className="social-imgcontent" src={Medium} alt="medium" />
-                <img className="social-imgcontent" src={Tribble} alt="tribble" />
+                <LazyLoadImage className="social-imgcontent" src={Linkedin} alt="linkedin" />
+                <LazyLoadImage className="social-imgcontent" src={Facebook} alt="facebook" />
+                <LazyLoadImage className="social-imgcontent" src={Instagram} alt="instagram" />
+                <LazyLoadImage className="social-imgcontent" src={Behance} alt="behance" />
+                <LazyLoadImage className="social-imgcontent" src={Medium} alt="medium" />
+                <LazyLoadImage className="social-imgcontent" src={Tribble} alt="tribble" />
               </div>
               <div className="policies-content">FAQs  |  Cookie Policy  |  Privacy Notice  |  Terms of Use</div>
               <div className="copyrights-content">© 2022 Squarely Technology Solutions LLC. All rights reserved.</div>
